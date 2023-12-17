@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VSCode Snippet Generator</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <style>
+      hr {
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="alert">Copied To Clipboard Successfully ...</div>
+    <div class="container">
+      <h1 id="header">VSCode Snippet Generator</h1>
+      <h2 id="heading">We helps you to be more productive</h2>
+      <h3 id="sub-heading">
+        Generate User Snippets for your favourite<br />code editor - Visual
+        Studio Code
+      </h3>
+      <div class="input-section">
+        <form id="form">
+          <input
+            type="text"
+            name="description"
+            id="description-text"
+            placeholder="Description ....."
+          />
+          <input
+            type="text"
+            name="prefix"
+            id="prefix-text"
+            placeholder="Prefix ......."
+          />
+          <textarea
+            name="snippet"
+            id="snippet-text"
+            cols="100"
+            rows="5"
+            placeholder="Snippet ....."
+          ></textarea>
+        </form>
+      </div>
+      <hr />
+      <div class="output-section">
+        <img
+          src="../assets/svg/clipboard.svg"
+          alt="Copy to clipboard"
+          id="copy-button"
+          title="Copy to Clipboard"
+        />
+        <div class="output">
+          <pre>"": { </pre>
+          <pre>  "prefix": "", </pre>
+          <pre>  "body": [ </pre>
+          <pre>  "" </pre>
+          <pre>   ], </pre>
+          <pre>  "description": "" </pre>
+          <pre>} </pre>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../app/app.js"></script>
+</html>

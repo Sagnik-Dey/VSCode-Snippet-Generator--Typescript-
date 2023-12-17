@@ -1,0 +1,23 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views\\index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "VSCode Snippet Generator",
+    "icon": "assets/images/vscode.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 1200,
+    "height": 650,
+    "position": "center",
+    "min_width": 1150,
+    "min_height": 650
+  },
+  "keywords": [],
+  "author": "Sagnik Dey",
+  "license": "MIT"
+}

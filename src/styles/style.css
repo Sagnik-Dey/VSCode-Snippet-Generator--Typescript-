@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat' sans-serif;
+}
+body {
+    background-color: #17B978;
+    font-family: 'Montserrat', sans-serif;
+}
+input[type="text"], textarea, .output-section {
+    background-color: #107049;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat' sans-serif;
+    cursor: auto;
+}
+textarea {
+   font: inherit;
+}
+
+.container {
+    padding: 2rem;
+    margin: 1rem 7rem;
+}
+.output-section {
+    min-height: 21rem;
+    max-height: 21rem;
+    overflow: auto;
+}
+.output{
+    overflow: auto;
+}
+.copied {
+    animation: 2s linear 2s 1 checkAnimation;
+}
+.alert {
+    background-color: #454545;
+    color: #fff;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    z-index: 2;
+    padding: 2rem;
+    margin: 0 auto;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 3px 3px 11px #232323;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#header {
+    color: #fff;
+    font-size: 2.3rem;
+    padding: 1rem 0;
+    border-bottom: 0.1rem solid #fff;
+}
+#heading {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1.1rem 0;
+}
+#sub-heading {
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 0.1rem 0;
+    font-weight: 500;
+}
+#description-text, #prefix-text {
+    margin-top: 5rem;
+    width: 49%;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: 1rem;
+}
+#prefix-text {
+    margin-left: 1.6rem;
+}
+#snippet-text, .output-section {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family:  'Montserrat' sans-serif;
+    color: #fff;
+    border-radius: 1rem;
+    resize: none;
+}
+#copy-button {
+    position: absolute;
+    right: 11rem;
+    transition: all 0.5s ease;
+}
+#alert-img {
+    margin-right: 4rem;
+}
+
+input[type="text"]::placeholder, textarea::placeholder {
+    color: #DDD;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+    margin: 5px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 1rem;
+    background-color: #107049;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #7de0b9;
+}
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 1rem;
+    background-color: #0a462e;
+}
