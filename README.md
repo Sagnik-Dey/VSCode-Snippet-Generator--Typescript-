@@ -10,8 +10,10 @@ This application helps you to generate snippets for your favourite code editor -
 ![Screenshot 2023-12-17 185520](https://github.com/Sagnik-Dey/text_to_handwriting/assets/85222136/e9b243a2-89db-4c33-a90f-3a1d203861ff)
 
 ## Languages Used
-> HTML 
+> HTML
+
 > CSS
+
 > Javascript
 
 ## How to Use
